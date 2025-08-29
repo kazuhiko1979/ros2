@@ -1,0 +1,24 @@
+[0.913s] Invoking command in '/home/user/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/user/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[1.292s] running develop
+[1.483s] running egg_info
+[1.503s] writing my_py_pkg.egg-info/PKG-INFO
+[1.504s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.505s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.505s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.505s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.544s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.545s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.575s] running build_ext
+[1.575s] Creating /home/user/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.575s] Installing add_two_ints_client script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.576s] Installing add_two_ints_client_no_oop script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.576s] Installing add_two_ints_server script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.576s] Installing number_counter script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.576s] Installing number_publisher script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.576s] Installing py_node script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.577s] Installing robot_news_station script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.577s] Installing smartphone script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.577s] 
+[1.577s] Installed /home/user/ros2_ws/build/my_py_pkg
+[1.577s] running symlink_data
+[1.623s] Invoked command in '/home/user/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

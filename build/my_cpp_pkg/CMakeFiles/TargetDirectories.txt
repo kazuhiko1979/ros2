@@ -3,6 +3,8 @@
 /home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/cpp_node.dir
 /home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/robot_news_station.dir
 /home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/smartphone.dir
+/home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/add_two_ints_server.dir
+/home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/add_two_ints_client_no_oop.dir
 /home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/test.dir
 /home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/user/ros2_ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir

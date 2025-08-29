@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c57879cf738e3bfc20c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client_no_oop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client_no_oop-c892db71c4f37ff34ed7.json",
+					"name" : "add_two_ints_client_no_oop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_server-aed6daade4c552099441.json",
+					"name" : "add_two_ints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_node-508b9c448c9f3b541a30.json",
+					"name" : "cpp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_cpp_pkg_uninstall-d00eb2207c7a03ec7fbc.json",
+					"name" : "my_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_news_station::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_news_station-c507eebd89b1c6d91766.json",
+					"name" : "robot_news_station",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smartphone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smartphone-613d018acb14fe863738.json",
+					"name" : "smartphone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bed616acc53974ac3ac6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/ros2_ws/build/my_cpp_pkg",
+		"source" : "/home/user/ros2_ws/src/my_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

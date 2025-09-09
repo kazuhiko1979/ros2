@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+from rclpy.parameter import Parameter
 from example_interfaces.msg import Int64
 
 class NumberPublisher(Node):
@@ -11,6 +12,7 @@ class NumberPublisher(Node):
         self.declare_parameter("timer_period", 1.0) # default seconds 1
         self.number_ = self.get_parameter('number').value
         self.timer_period_ = self.get_parameter('timer_period').value
+        self.add_post_set_parameters_callback(self.parameters_callback)
         
         self.number_publisher_ = self.create_publisher(Int64, 'number', 10)
         self.number_timer = self.create_timer(self.timer_period_, self.publish_number)
@@ -21,8 +23,11 @@ class NumberPublisher(Node):
         msg.data = self.number_
         self.number_publisher_.publish(msg)
 
-        
-
+    def parameters_callback(self, params: list[Parameter]):
+        for param in params:
+            if param.name == 'number':
+                self.number_ = param.value
+      
 def main(args=None):
     rclpy.init(args=args)
     node = NumberPublisher()

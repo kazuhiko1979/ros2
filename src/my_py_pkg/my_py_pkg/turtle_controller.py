@@ -11,6 +11,17 @@ class TurtleController(Node):
         super().__init__('turtle_controller')
         self.target = None
         self.pose = None
+        
+        # パラメータ宣言
+        self.declare_parameter("catch_distance", 0.5)
+        self.declare_parameter("linear_gain", 2.0)
+        self.declare_parameter("angular_gain", 6.0)
+        
+        # パラメータ取得
+        self.catch_distance = self.get_parameter("catch_distance").value
+        self.linear_gain = self.get_parameter("linear_gain").value
+        self.angular_gain = self.get_parameter("angular_gain").value
+        
         # 自分(turtle1)の位置を購読        
         self.create_subscription(Pose, 'turtle1/pose', self.pose_callback, 10)
         # 生きているカメ一覧の位置を購読
@@ -20,6 +31,10 @@ class TurtleController(Node):
         # 0.1秒ごとに制御ループを実行
         self.timer = self.create_timer(0.1, self.control_loop)
         
+        self.get_logger().info(
+            f"Controller started with parameters: catch_distance={self.catch_distance} "
+            f"linear_gain={self.linear_gain} angular_gain={self.angular_gain}")
+
     def pose_callback(self, msg):
         self.pose = msg
         

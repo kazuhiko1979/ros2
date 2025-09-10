@@ -11,19 +11,42 @@ class TurtleController(Node):
         super().__init__('turtle_controller')
         self.target = None
         self.pose = None
+        # 自分(turtle1)の位置を購読        
         self.create_subscription(Pose, 'turtle1/pose', self.pose_callback, 10)
+        # 生きているカメ一覧の位置を購読
         self.create_subscription(TurtleArray, 'alive_turtles', self.turtles_callback, 10)
+        # 移動コマンドのPublisher
         self.cmd_pub = self.create_publisher(Twist, 'turtle1/cmd_vel', 10)
+        # 0.1秒ごとに制御ループを実行
         self.timer = self.create_timer(0.1, self.control_loop)
         
     def pose_callback(self, msg):
         self.pose = msg
         
     def turtles_callback(self, msg):
-        if msg.turtles:
-            self.target = msg.turtles[0]  # target the first turtle in the list
-        else:
+        # if msg.turtles:
+        #     self.target = msg.turtles[0]  # target the first turtle in the list
+        # else:
+        #     self.target = None
+        if not msg.turtles or self.pose is None:
             self.target = None
+            return
+        
+        # 一番近いカメを探す
+        closest_turtle = None
+        min_distance = float('inf')
+        
+        for t in msg.turtles:
+            dx = t.x - self.pose.x
+            dy = t.y - self.pose.y
+            distance = math.hypot(dx, dy)
+            if distance < min_distance:
+                min_distance = distance
+                closest_turtle = t
+        
+        self.target = closest_turtle
+        if self.target:
+            self.get_logger().info(f'Targeting closeet turtle: {self.target.name} (distance: {min_distance:.2f})')   
             
     def control_loop(self):
         if self.pose is None or self.target is None:

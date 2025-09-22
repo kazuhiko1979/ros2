@@ -1,0 +1,25 @@
+[1.172s] Invoking command in '/home/user/ros2_ws/src/build/turtlesim_catch_them_all': PYTHONPATH=/home/user/ros2_ws/src/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/src/build/turtlesim_catch_them_all/build --no-deps symlink_data
+[1.523s] running develop
+[1.745s] running egg_info
+[1.746s] creating turtlesim_catch_them_all.egg-info
+[1.765s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[1.766s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[1.766s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[1.766s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[1.766s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[1.767s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.809s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.810s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.837s] running build_ext
+[1.837s] Creating /home/user/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[1.839s] Installing controller script to /home/user/ros2_ws/src/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.839s] Installing spawner script to /home/user/ros2_ws/src/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.840s] 
+[1.840s] Installed /home/user/ros2_ws/src/build/turtlesim_catch_them_all
+[1.840s] running symlink_data
+[1.840s] creating /home/user/ros2_ws/src/install/turtlesim_catch_them_all/share/ament_index
+[1.841s] creating /home/user/ros2_ws/src/install/turtlesim_catch_them_all/share/ament_index/resource_index
+[1.841s] creating /home/user/ros2_ws/src/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[1.843s] symbolically linking /home/user/ros2_ws/src/build/turtlesim_catch_them_all/resource/turtlesim_catch_them_all -> /home/user/ros2_ws/src/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[1.844s] symbolically linking /home/user/ros2_ws/src/build/turtlesim_catch_them_all/package.xml -> /home/user/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[1.881s] Invoked command in '/home/user/ros2_ws/src/build/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/src/build/turtlesim_catch_them_all/build --no-deps symlink_data

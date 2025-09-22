@@ -10,13 +10,28 @@ import random
 class TurtleSpawner(Node):
     def __init__(self):
         super().__init__('turtle_spawner')
-        self.turtle_prefix = 'turtle'
-        self.turtle_count = 2
+        
+        # パラメータ宣言
+        self.declare_parameter('turtle_prefix', 'turtle')
+        self.declare_parameter('turtle_count', 2)
+        self.declare_parameter('spawn_period', 1.0)
+        
+        # パラメータ取得
+        self.turtle_prefix = self.get_parameter('turtle_prefix').value
+        self.turtle_count = self.get_parameter('turtle_count').value
+        self.spawn_period = self.get_parameter('spawn_period').value
+        
         self.alive_turtles = []
         self.publisher = self.create_publisher(TurtleArray, 'alive_turtles', 10)
-        self.create_timer(1.0, self.spawn_turtle_timer)
+        
+        self.create_timer(self.spawn_period, self.spawn_turtle_timer)
         # kill turtle
         self.create_service(CatchTurtle, 'catch_turtle', self.catch_turtle_callback)
+        
+        self.get_logger().info(
+            f"Spawner started with prefix={self.turtle_prefix}, "
+            f"max_count={self.turtle_count}, spawn_period={self.spawn_period}"
+        )
         
     
     def spawn_turtle_timer(self):

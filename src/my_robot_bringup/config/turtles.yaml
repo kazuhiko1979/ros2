@@ -1,0 +1,11 @@
+turtle_spawner:
+  ros__parameters:
+    turtle_prefex: 'turtle'  # 亀の名前の接頭辞
+    turtle_count: 4          # 最大亀の数
+    spawn_period: 1.0        # 亀を生成する周期（秒）
+
+turtle_controller:
+  ros__parameters:
+    catch_distance: 0.7 # 捕まえる距離の閾値
+    linear_speed: 1.5   # 前進スピードの係数
+    angular_speed: 5.0  # 回転スピードの係数

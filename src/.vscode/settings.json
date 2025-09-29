@@ -104,5 +104,6 @@
         "generator": "cpp",
         "print": "cpp",
         "text_encoding": "cpp"
-    }
+    },
+    "chatgpt.openOnStartup": true
 }

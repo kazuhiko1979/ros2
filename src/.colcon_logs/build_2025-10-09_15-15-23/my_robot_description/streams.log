@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/user/ros2_ws/src/build/my_robot_description': /usr/bin/cmake /home/user/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/my_robot_description
+[0.648s] -- The C compiler identification is GNU 13.3.0
+[2.454s] -- The CXX compiler identification is GNU 13.3.0
+[3.582s] -- Detecting C compiler ABI info
+[4.015s] -- Detecting C compiler ABI info - done
+[4.028s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.029s] -- Detecting C compile features
+[4.030s] -- Detecting C compile features - done
+[4.194s] -- Detecting CXX compiler ABI info
+[4.612s] -- Detecting CXX compiler ABI info - done
+[4.620s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.621s] -- Detecting CXX compile features
+[4.621s] -- Detecting CXX compile features - done
+[7.075s] CMake Error at CMakeLists.txt:9 (find_package):
+[7.075s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[7.075s]   has asked CMake to find a package configuration file provided by
+[7.075s]   "ament_cmake", but CMake did not find one.
+[7.075s] 
+[7.075s]   Could not find a package configuration file provided by "ament_cmake" with
+[7.075s]   any of the following names:
+[7.075s] 
+[7.075s]     ament_cmakeConfig.cmake
+[7.075s]     ament_cmake-config.cmake
+[7.075s] 
+[7.076s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[7.076s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[7.076s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[7.076s]   has been installed.
+[7.076s] 
+[7.076s] 
+[7.076s] -- Configuring incomplete, errors occurred!
+[7.077s] Invoked command in '/home/user/ros2_ws/src/build/my_robot_description' returned '1': /usr/bin/cmake /home/user/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/my_robot_description

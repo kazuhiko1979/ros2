@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000286] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000322] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000350] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000381] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.000419] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000449] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.009084] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.011099] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/my_robot_description', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/my_robot_description'], 'cwd': '/home/user/ros2_ws/src/build/my_robot_description', 'env': OrderedDict({'VSCODE_CWD': '/mnt/c/Users/kazuh/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'user', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"ja","osLocale":"ja","resolvedLanguage":"ja","defaultMessagesFile":"/home/user/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/user/.vscode-server/data/clp/b6f5525b65bf8f12e91199d678662317.ja/tcf.json","messagesFile":"/home/user/.vscode-server/data/clp/b6f5525b65bf8f12e91199d678662317.ja/385651c938df8a906869babee516bffd0ddb9829/nls.messages.json","corruptMarkerFile":"/home/user/.vscode-server/data/clp/b6f5525b65bf8f12e91199d678662317.ja/corrupted.info"},"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"b6f5525b65bf8f12e91199d678662317.ja","_languagePackSupport":true,"_translationsConfigFile":"/home/user/.vscode-server/data/clp/b6f5525b65bf8f12e91199d678662317.ja/tcf.json","_cacheRoot":"/home/user/.vscode-server/data/clp/b6f5525b65bf8f12e91199d678662317.ja","_resolvedLanguagePackCoreLocation":"/home/user/.vscode-server/data/clp/b6f5525b65bf8f12e91199d678662317.ja/385651c938df8a906869babee516bffd0ddb9829","_corruptedFile":"/home/user/.vscode-server/data/clp/b6f5525b65bf8f12e91199d678662317.ja/corrupted.info"}', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/kazuh/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'SHLVL': '0', 'HOME': '/home/user', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f111fc00-b08a-4771-942f-eed6f12cc2a8.sock', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_LOG_PATH': '/home/user/ros2_ws/src/.colcon_logs', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'user', 'NAME': 'LAPTOP-V3KNT5JR', 'WSL_INTEROP': '/run/WSL/615_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'RUST_LOG': 'warn', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tmp/.tmpb8TKwA:/home/user/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Zulu/zulu-17/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/sqlite3:/mnt/c/Users/kazuh/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files (x86)/Bitvise SSH Client:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Go/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/mingw64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/mingw64/x86_64-w64-mingw32/bin:/mnt/c/ffmpeg/bin:/mnt/c/opencv/build/install/bin:/mnt/c/opencv/build/install/x64/mingw/bin:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/TDM-GCC-64/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Zulu/zulu-17/bin:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/emulator:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/cmdline-tools/latest/bin:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/cmake/3.22.1/bin:/mnt/c/Ruby30-x64/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/kazuh/anaconda3:/mnt/c/Users/kazuh/anaconda3/Scripts:/mnt/c/Users/kazuh/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/kazuh/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/kazuh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kazuh/AppData/Local/atom/bin:/mnt/c/Users/kazuh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/LetsLearn/Java/openjdk-21.0.1/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.5/bin:/mnt/c/Users/kazuh/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/bin:/mnt/c/php/php-8.3.4-src/php-8.3.4-nts-Win32-vs16-x64:/mnt/c/Users/kazuh/AppData/Local/Programs/mongosh/:/mnt/c/Users/kazuh/.dotnet/tools:/mnt/c/Users/kazuh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kazuh/go/bin:/mnt/c/Users/kazuh/go/bin:/mnt/c/Users/kazuh/AppData/Roaming/npm:/home/user/.vscode-server/extensions/openai.chatgpt-0.4.19-linux-x64/bin/linux-x86_64:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'PWD': '/home/user/ros2_ws/src/build/my_robot_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099239] (-) TimerEvent: {}
+[0.199587] (-) TimerEvent: {}
+[0.300371] (-) TimerEvent: {}
+[0.401046] (-) TimerEvent: {}
+[0.501342] (-) TimerEvent: {}
+[0.601675] (-) TimerEvent: {}
+[0.648235] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.701888] (-) TimerEvent: {}
+[0.802185] (-) TimerEvent: {}
+[0.902474] (-) TimerEvent: {}
+[1.002737] (-) TimerEvent: {}
+[1.102965] (-) TimerEvent: {}
+[1.203169] (-) TimerEvent: {}
+[1.303422] (-) TimerEvent: {}
+[1.403729] (-) TimerEvent: {}
+[1.504422] (-) TimerEvent: {}
+[1.605615] (-) TimerEvent: {}
+[1.705896] (-) TimerEvent: {}
+[1.806174] (-) TimerEvent: {}
+[1.906437] (-) TimerEvent: {}
+[2.006720] (-) TimerEvent: {}
+[2.106975] (-) TimerEvent: {}
+[2.207274] (-) TimerEvent: {}
+[2.307617] (-) TimerEvent: {}
+[2.407904] (-) TimerEvent: {}
+[2.454613] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.508169] (-) TimerEvent: {}
+[2.608466] (-) TimerEvent: {}
+[2.708753] (-) TimerEvent: {}
+[2.809096] (-) TimerEvent: {}
+[2.909353] (-) TimerEvent: {}
+[3.009567] (-) TimerEvent: {}
+[3.109906] (-) TimerEvent: {}
+[3.210164] (-) TimerEvent: {}
+[3.310358] (-) TimerEvent: {}
+[3.410674] (-) TimerEvent: {}
+[3.510886] (-) TimerEvent: {}
+[3.582616] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.610981] (-) TimerEvent: {}
+[3.711172] (-) TimerEvent: {}
+[3.811624] (-) TimerEvent: {}
+[3.912014] (-) TimerEvent: {}
+[4.012333] (-) TimerEvent: {}
+[4.015079] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.028849] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.029852] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.030574] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.112467] (-) TimerEvent: {}
+[4.194828] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.212620] (-) TimerEvent: {}
+[4.313191] (-) TimerEvent: {}
+[4.413518] (-) TimerEvent: {}
+[4.513871] (-) TimerEvent: {}
+[4.612396] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.614025] (-) TimerEvent: {}
+[4.620845] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.621185] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.621365] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.714122] (-) TimerEvent: {}
+[4.814351] (-) TimerEvent: {}
+[4.914905] (-) TimerEvent: {}
+[5.015431] (-) TimerEvent: {}
+[5.116073] (-) TimerEvent: {}
+[5.216608] (-) TimerEvent: {}
+[5.317192] (-) TimerEvent: {}
+[5.417405] (-) TimerEvent: {}
+[5.517650] (-) TimerEvent: {}
+[5.617949] (-) TimerEvent: {}
+[5.718194] (-) TimerEvent: {}
+[5.818416] (-) TimerEvent: {}
+[5.918667] (-) TimerEvent: {}
+[6.018967] (-) TimerEvent: {}
+[6.119368] (-) TimerEvent: {}
+[6.219688] (-) TimerEvent: {}
+[6.319932] (-) TimerEvent: {}
+[6.420164] (-) TimerEvent: {}
+[6.520513] (-) TimerEvent: {}
+[6.620845] (-) TimerEvent: {}
+[6.721156] (-) TimerEvent: {}
+[6.821433] (-) TimerEvent: {}
+[6.921646] (-) TimerEvent: {}
+[7.021886] (-) TimerEvent: {}
+[7.075263] (my_robot_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[7.075553] (my_robot_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[7.075659] (my_robot_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[7.075707] (my_robot_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[7.075754] (my_robot_description) StderrLine: {'line': b'\n'}
+[7.075798] (my_robot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[7.075914] (my_robot_description) StderrLine: {'line': b'  any of the following names:\n'}
+[7.075982] (my_robot_description) StderrLine: {'line': b'\n'}
+[7.076027] (my_robot_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[7.076072] (my_robot_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[7.076117] (my_robot_description) StderrLine: {'line': b'\n'}
+[7.076161] (my_robot_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[7.076206] (my_robot_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[7.076251] (my_robot_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[7.076295] (my_robot_description) StderrLine: {'line': b'  has been installed.\n'}
+[7.076338] (my_robot_description) StderrLine: {'line': b'\n'}
+[7.076381] (my_robot_description) StderrLine: {'line': b'\n'}
+[7.076424] (my_robot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.077911] (my_robot_description) CommandEnded: {'returncode': 1}
+[7.104210] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 1}
+[7.115033] (-) EventReactorShutdown: {}

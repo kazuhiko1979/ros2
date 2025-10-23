@@ -1,0 +1,67 @@
+[0.027s] Invoking command in '/home/user/ros2_ws/src/build/actions_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/actions_cpp
+[0.551s] -- The C compiler identification is GNU 13.3.0
+[1.988s] -- The CXX compiler identification is GNU 13.3.0
+[3.179s] -- Detecting C compiler ABI info
+[3.649s] -- Detecting C compiler ABI info - done
+[3.656s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.658s] -- Detecting C compile features
+[3.659s] -- Detecting C compile features - done
+[3.841s] -- Detecting CXX compiler ABI info
+[4.323s] -- Detecting CXX compiler ABI info - done
+[4.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.334s] -- Detecting CXX compile features
+[4.335s] -- Detecting CXX compile features - done
+[4.375s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.560s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.797s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.246s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.271s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.531s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.539s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.129s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.920s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[7.073s] -- Found my_robot_interfaces: 0.0.0 (/home/user/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[7.279s] -- Configuring done (7.2s)
+[7.305s] -- Generating done (0.0s)
+[7.320s] -- Build files have been written to: /home/user/ros2_ws/src/build/actions_cpp
+[7.336s] Invoked command in '/home/user/ros2_ws/src/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/actions_cpp
+[7.339s] Invoking command in '/home/user/ros2_ws/src/build/actions_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/src/build/actions_cpp -- -j4 -l4
+[7.418s] [ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[10.595s] [01m[K/home/user/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CountUntilServerNode::[01;32m[Kgoal_callback[m[K(const rclcpp_action::GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::CountUntil_Goal_<std::allocator<void> > >)[m[K’:
+[10.595s] [01m[K/home/user/ros2_ws/src/actions_cpp/src/count_until_server.cpp:27:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.595s]    27 |         [01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const CountUntil::Goal> goal)
+[10.595s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.595s] [01m[K/home/user/ros2_ws/src/actions_cpp/src/count_until_server.cpp:27:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.595s]    27 |         const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const CountUntil::Goal> goal[m[K)
+[10.595s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.595s] [01m[K/home/user/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse CountUntilServerNode::[01;32m[Kcancel_callback[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::CountUntil> >)[m[K’:
+[10.595s] [01m[K/home/user/ros2_ws/src/actions_cpp/src/count_until_server.cpp:33:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.595s]    33 |         [01;35m[Kconst std::shared_ptr<CountUntilGoalHandle> goal_handle[m[K)
+[10.596s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[12.438s] [100%] [32m[1mLinking CXX executable count_until_server[0m
+[13.034s] [100%] Built target count_until_server
+[13.074s] Invoked command in '/home/user/ros2_ws/src/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/src/build/actions_cpp -- -j4 -l4
+[13.115s] Invoking command in '/home/user/ros2_ws/src/build/actions_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/src/build/actions_cpp
+[13.131s] -- Install configuration: ""
+[13.133s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/lib/actions_cpp/count_until_server
+[13.135s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/src/install/actions_cpp/lib/actions_cpp/count_until_server" to ""
+[13.136s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+[13.137s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+[13.138s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+[13.138s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+[13.139s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/environment/path.sh
+[13.139s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/environment/path.dsv
+[13.139s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/local_setup.bash
+[13.140s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/local_setup.sh
+[13.140s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/local_setup.zsh
+[13.140s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/local_setup.dsv
+[13.140s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.dsv
+[13.141s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+[13.141s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+[13.141s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+[13.142s] -- Installing: /home/user/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.xml
+[13.145s] Invoked command in '/home/user/ros2_ws/src/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/src/build/actions_cpp

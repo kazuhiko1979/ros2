@@ -1,0 +1,75 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/action/MoveRobot_FeedbackMessage",
+      "fields": [
+        {
+          "name": "goal_id",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "unique_identifier_msgs/msg/UUID"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "my_robot_interfaces/action/MoveRobot_Feedback"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "my_robot_interfaces/action/MoveRobot_Feedback",
+        "fields": [
+          {
+            "name": "current_position",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/action/MoveRobot_FeedbackMessage",
+      "hash_string": "RIHS01_f7b6fede0433953acd9397996b1a088fbcd5166f4de2d59b8bc63aff9f0a4ac0"
+    },
+    {
+      "type_name": "my_robot_interfaces/action/MoveRobot_Feedback",
+      "hash_string": "RIHS01_019966a4903f207f60709d370449cb5e47638be2a2d2b472005fc789aa78e4dd"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

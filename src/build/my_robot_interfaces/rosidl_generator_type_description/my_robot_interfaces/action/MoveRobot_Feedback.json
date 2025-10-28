@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/action/MoveRobot_Feedback",
+      "fields": [
+        {
+          "name": "current_position",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/action/MoveRobot_Feedback",
+      "hash_string": "RIHS01_019966a4903f207f60709d370449cb5e47638be2a2d2b472005fc789aa78e4dd"
+    }
+  ]
+}

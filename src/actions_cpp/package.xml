@@ -4,7 +4,7 @@
   <name>actions_cpp</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="challengevolley1979@gmail.com">user</maintainer>
+  <maintainer email="todo.todo@todo.com">ed</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
@@ -12,7 +12,8 @@
   <depend>rclcpp</depend>
   <depend>rclcpp_action</depend>
   <depend>my_robot_interfaces</depend>
-  
+  <depend>example_interfaces</depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 

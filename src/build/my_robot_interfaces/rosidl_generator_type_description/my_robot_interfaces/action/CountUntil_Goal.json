@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/action/CountUntil_Goal",
+      "fields": [
+        {
+          "name": "target_number",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "period",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/action/CountUntil_Goal",
+      "hash_string": "RIHS01_2df29e5792464906effdf080dae4cd469d82c0ecddf9fd541821e9406bb8e301"
+    }
+  ]
+}

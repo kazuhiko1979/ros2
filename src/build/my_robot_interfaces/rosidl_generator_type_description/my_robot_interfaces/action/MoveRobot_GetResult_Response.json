@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/action/MoveRobot_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "my_robot_interfaces/action/MoveRobot_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "my_robot_interfaces/action/MoveRobot_Result",
+        "fields": [
+          {
+            "name": "position",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/action/MoveRobot_GetResult_Response",
+      "hash_string": "RIHS01_6754e65e89f3f5659e1ce7124f45803dcf27717e63cd79f92613fc9f9ba6de65"
+    },
+    {
+      "type_name": "my_robot_interfaces/action/MoveRobot_Result",
+      "hash_string": "RIHS01_aaf5f5f50c6635fb138e3bf97373e89d3b994c3df0e96af127dcdeeed4c9a06c"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+[0.000000] (-) TimerEvent: {}
+[0.003078] (-) JobUnselected: {'identifier': 'actions_cpp'}
+[0.003179] (-) JobUnselected: {'identifier': 'actions_py'}
+[0.003202] (-) JobUnselected: {'identifier': 'executors_py'}
+[0.003222] (-) JobUnselected: {'identifier': 'lifecycle_cpp'}
+[0.003242] (-) JobUnselected: {'identifier': 'lifecycle_py'}
+[0.003263] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.003280] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.003291] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.003302] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.003313] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.003325] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.003340] (executors_cpp) JobQueued: {'identifier': 'executors_cpp', 'dependencies': OrderedDict()}
+[0.003359] (executors_cpp) JobStarted: {'identifier': 'executors_cpp'}
+[0.028168] (executors_cpp) JobProgress: {'identifier': 'executors_cpp', 'progress': 'cmake'}
+[0.031399] (executors_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/executors_cpp', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/executors_cpp'], 'cwd': '/home/user/ros2_ws/src/build/executors_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'user', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/my_robot_interfaces/lib:/home/user/ros2_ws/install/battery_led_panel/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/user', 'ASDF_DIR': '/home/linuxbrew/.linuxbrew/opt/asdf/libexec', 'OLDPWD': '/home/user/ros2_ws', 'NVM_BIN': '/home/user/.nvm/versions/node/v20.19.3/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/user/.nvm/versions/node/v20.19.3/include/node', 'ROS_PYTHON_VERSION': '3', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/user/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'LAPTOP-V3KNT5JR', 'WSL_INTEROP': '/run/WSL/509_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.local/bin:/usr/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/user/.nvm/versions/node/v20.19.3/bin:/home/user/Android/Sdk/cmake/3.22.1/bin:/home/user/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin:/home/user/Android/Sdk/platform-tools:/home/user/Android/Sdk/cmdline-tools/latest/bin:/home/user/.asdf/shims:/home/linuxbrew/.linuxbrew/opt/asdf/libexec/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/lib/jvm/java-21-openjdk-amd64/bin:/home/user/.pyenv/shims:/home/user/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Zulu/zulu-17/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/sqlite3:/mnt/c/Users/kazuh/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files (x86)/Bitvise SSH Client:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Go/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/mingw64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/mingw64/x86_64-w64-mingw32/bin:/mnt/c/ffmpeg/bin:/mnt/c/opencv/build/install/bin:/mnt/c/opencv/build/install/x64/mingw/bin:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/TDM-GCC-64/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Zulu/zulu-17/bin:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/emulator:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/cmdline-tools/latest/bin:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/cmake/3.22.1/bin:/mnt/c/Ruby30-x64/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/kazuh/anaconda3:/mnt/c/Users/kazuh/anaconda3/Scripts:/mnt/c/Users/kazuh/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/kazuh/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/kazuh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kazuh/AppData/Local/atom/bin:/mnt/c/Users/kazuh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/LetsLearn/Java/openjdk-21.0.1/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.5/bin:/mnt/c/Users/kazuh/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/bin:/mnt/c/php/php-8.3.4-src/php-8.3.4-nts-Win32-vs16-x64:/mnt/c/Users/kazuh/AppData/Local/Programs/mongosh/:/mnt/c/Users/kazuh/.dotnet/tools:/mnt/c/Users/kazuh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kazuh/go/bin:/mnt/c/Users/kazuh/go/bin:/mnt/c/Users/kazuh/AppData/Roaming/npm:/snap/bin:/home/user/Android/Sdk/emulator:/home/user/Android/Sdk/platform-tools:/home/user/Android/Sdk/cmdline-tools/latest/bin:/home/user/Android/Sdk/cmake/3.22.1/bin', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'WT_SESSION': '8e26e789-4876-47e6-af5f-d9067d0f700d', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/my_robot_bringup:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/my_cpp_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/actions_cpp:/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/my_robot_description:/home/user/ros2_ws/install/lifecycle_py:/home/user/ros2_ws/install/lifecycle_cpp:/home/user/ros2_ws/install/battery_led_panel:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ANDROID_SDK_ROOT': '/home/user/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-21-openjdk-amd64', 'PWD': '/home/user/ros2_ws/src/build/executors_cpp', 'ANDROID_HOME': '/home/user/Android/Sdk', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/user/.pyenv', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/build/executors_py:/home/user/ros2_ws/install/executors_py/lib/python3.12/site-packages:/home/user/ros2_ws/build/turtlesim_catch_them_all:/home/user/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/user/ros2_ws/build/my_py_pkg:/home/user/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/user/ros2_ws/build/actions_py:/home/user/ros2_ws/install/actions_py/lib/python3.12/site-packages:/home/user/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/lifecycle_py:/home/user/ros2_ws/install/lifecycle_py/lib/python3.12/site-packages:/home/user/ros2_ws/install/battery_led_panel/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/my_robot_bringup:/home/user/ros2_ws/install/my_cpp_pkg:/home/user/ros2_ws/install/actions_cpp:/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/my_robot_description:/home/user/ros2_ws/install/lifecycle_cpp:/home/user/ros2_ws/install/battery_led_panel:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/lifecycle_py:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099852] (-) TimerEvent: {}
+[0.204115] (-) TimerEvent: {}
+[0.304766] (-) TimerEvent: {}
+[0.406837] (-) TimerEvent: {}
+[0.507510] (-) TimerEvent: {}
+[0.608228] (-) TimerEvent: {}
+[0.708818] (-) TimerEvent: {}
+[0.809500] (-) TimerEvent: {}
+[0.910200] (-) TimerEvent: {}
+[0.947283] (executors_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.010587] (-) TimerEvent: {}
+[1.111550] (-) TimerEvent: {}
+[1.212246] (-) TimerEvent: {}
+[1.312794] (-) TimerEvent: {}
+[1.413405] (-) TimerEvent: {}
+[1.514150] (-) TimerEvent: {}
+[1.614653] (-) TimerEvent: {}
+[1.715253] (-) TimerEvent: {}
+[1.815847] (-) TimerEvent: {}
+[1.916524] (-) TimerEvent: {}
+[2.017119] (-) TimerEvent: {}
+[2.117669] (-) TimerEvent: {}
+[2.218615] (-) TimerEvent: {}
+[2.319412] (-) TimerEvent: {}
+[2.419996] (-) TimerEvent: {}
+[2.520630] (-) TimerEvent: {}
+[2.621113] (-) TimerEvent: {}
+[2.721665] (-) TimerEvent: {}
+[2.822161] (-) TimerEvent: {}
+[2.922618] (-) TimerEvent: {}
+[3.023103] (-) TimerEvent: {}
+[3.123701] (-) TimerEvent: {}
+[3.224257] (-) TimerEvent: {}
+[3.324740] (-) TimerEvent: {}
+[3.394269] (executors_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.424909] (-) TimerEvent: {}
+[3.525548] (-) TimerEvent: {}
+[3.626105] (-) TimerEvent: {}
+[3.726616] (-) TimerEvent: {}
+[3.827214] (-) TimerEvent: {}
+[3.927758] (-) TimerEvent: {}
+[4.028370] (-) TimerEvent: {}
+[4.129153] (-) TimerEvent: {}
+[4.230088] (-) TimerEvent: {}
+[4.330765] (-) TimerEvent: {}
+[4.431540] (-) TimerEvent: {}
+[4.532378] (-) TimerEvent: {}
+[4.633014] (-) TimerEvent: {}
+[4.733902] (-) TimerEvent: {}
+[4.834940] (-) TimerEvent: {}
+[4.935507] (-) TimerEvent: {}
+[5.036000] (-) TimerEvent: {}
+[5.136560] (-) TimerEvent: {}
+[5.237218] (-) TimerEvent: {}
+[5.337768] (-) TimerEvent: {}
+[5.438308] (-) TimerEvent: {}
+[5.538739] (-) TimerEvent: {}
+[5.639216] (-) TimerEvent: {}
+[5.739758] (-) TimerEvent: {}
+[5.752699] (executors_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.839983] (-) TimerEvent: {}
+[5.940565] (-) TimerEvent: {}
+[6.041014] (-) TimerEvent: {}
+[6.141538] (-) TimerEvent: {}
+[6.242165] (-) TimerEvent: {}
+[6.342753] (-) TimerEvent: {}
+[6.443257] (-) TimerEvent: {}
+[6.543728] (-) TimerEvent: {}
+[6.644368] (-) TimerEvent: {}
+[6.692634] (executors_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.709072] (executors_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.710615] (executors_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.711740] (executors_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.744592] (-) TimerEvent: {}
+[6.845212] (-) TimerEvent: {}
+[6.945744] (-) TimerEvent: {}
+[7.046294] (-) TimerEvent: {}
+[7.137432] (executors_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.146490] (-) TimerEvent: {}
+[7.246948] (-) TimerEvent: {}
+[7.347443] (-) TimerEvent: {}
+[7.447870] (-) TimerEvent: {}
+[7.548344] (-) TimerEvent: {}
+[7.648878] (-) TimerEvent: {}
+[7.749355] (-) TimerEvent: {}
+[7.849999] (-) TimerEvent: {}
+[7.950753] (-) TimerEvent: {}
+[8.045331] (executors_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.050925] (-) TimerEvent: {}
+[8.063612] (executors_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.064228] (executors_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.064784] (executors_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.125342] (executors_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[8.151101] (-) TimerEvent: {}
+[8.251808] (-) TimerEvent: {}
+[8.352688] (-) TimerEvent: {}
+[8.450548] (executors_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[8.453059] (-) TimerEvent: {}
+[8.553693] (-) TimerEvent: {}
+[8.655316] (-) TimerEvent: {}
+[8.761083] (-) TimerEvent: {}
+[8.852886] (executors_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[8.861361] (-) TimerEvent: {}
+[8.962097] (-) TimerEvent: {}
+[9.062621] (-) TimerEvent: {}
+[9.163250] (-) TimerEvent: {}
+[9.263930] (-) TimerEvent: {}
+[9.364692] (-) TimerEvent: {}
+[9.465242] (-) TimerEvent: {}
+[9.565776] (-) TimerEvent: {}
+[9.666344] (-) TimerEvent: {}
+[9.671086] (executors_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[9.721320] (executors_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[9.766517] (-) TimerEvent: {}
+[9.798060] (executors_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.866672] (-) TimerEvent: {}
+[9.873067] (executors_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.966877] (-) TimerEvent: {}
+[10.067348] (-) TimerEvent: {}
+[10.150072] (executors_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[10.164048] (executors_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.167523] (-) TimerEvent: {}
+[10.268055] (-) TimerEvent: {}
+[10.368524] (-) TimerEvent: {}
+[10.443998] (executors_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[10.468716] (-) TimerEvent: {}
+[10.569253] (-) TimerEvent: {}
+[10.669758] (-) TimerEvent: {}
+[10.770241] (-) TimerEvent: {}
+[10.870864] (-) TimerEvent: {}
+[10.971401] (-) TimerEvent: {}
+[11.046004] (executors_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[11.071742] (-) TimerEvent: {}
+[11.172364] (-) TimerEvent: {}
+[11.272903] (-) TimerEvent: {}
+[11.355471] (executors_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.373109] (-) TimerEvent: {}
+[11.473628] (-) TimerEvent: {}
+[11.574208] (-) TimerEvent: {}
+[11.674855] (-) TimerEvent: {}
+[11.775316] (-) TimerEvent: {}
+[11.875828] (-) TimerEvent: {}
+[11.976530] (-) TimerEvent: {}
+[12.076998] (-) TimerEvent: {}
+[12.124428] (executors_cpp) StdoutLine: {'line': b'-- Configuring done (11.9s)\n'}
+[12.155775] (executors_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[12.164163] (executors_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/build/executors_cpp\n'}
+[12.177201] (-) TimerEvent: {}
+[12.182934] (executors_cpp) CommandEnded: {'returncode': 0}
+[12.184711] (executors_cpp) JobProgress: {'identifier': 'executors_cpp', 'progress': 'build'}
+[12.188815] (executors_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/build/executors_cpp', '--', '-j4', '-l4'], 'cwd': '/home/user/ros2_ws/src/build/executors_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'user', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/my_robot_interfaces/lib:/home/user/ros2_ws/install/battery_led_panel/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/home/user', 'ASDF_DIR': '/home/linuxbrew/.linuxbrew/opt/asdf/libexec', 'OLDPWD': '/home/user/ros2_ws', 'NVM_BIN': '/home/user/.nvm/versions/node/v20.19.3/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/user/.nvm/versions/node/v20.19.3/include/node', 'ROS_PYTHON_VERSION': '3', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/user/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'LAPTOP-V3KNT5JR', 'WSL_INTEROP': '/run/WSL/509_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.local/bin:/usr/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/user/.nvm/versions/node/v20.19.3/bin:/home/user/Android/Sdk/cmake/3.22.1/bin:/home/user/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin:/home/user/Android/Sdk/platform-tools:/home/user/Android/Sdk/cmdline-tools/latest/bin:/home/user/.asdf/shims:/home/linuxbrew/.linuxbrew/opt/asdf/libexec/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/lib/jvm/java-21-openjdk-amd64/bin:/home/user/.pyenv/shims:/home/user/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Zulu/zulu-17/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/sqlite3:/mnt/c/Users/kazuh/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files (x86)/Bitvise SSH Client:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Go/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/mingw64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/mingw64/x86_64-w64-mingw32/bin:/mnt/c/ffmpeg/bin:/mnt/c/opencv/build/install/bin:/mnt/c/opencv/build/install/x64/mingw/bin:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/TDM-GCC-64/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Zulu/zulu-17/bin:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/emulator:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/cmdline-tools/latest/bin:/mnt/c/Users/kazuh/AppData/Local/Android/Sdk/cmake/3.22.1/bin:/mnt/c/Ruby30-x64/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/kazuh/anaconda3:/mnt/c/Users/kazuh/anaconda3/Scripts:/mnt/c/Users/kazuh/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/kazuh/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/kazuh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kazuh/AppData/Local/atom/bin:/mnt/c/Users/kazuh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/LetsLearn/Java/openjdk-21.0.1/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.5/bin:/mnt/c/Users/kazuh/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/bin:/mnt/c/php/php-8.3.4-src/php-8.3.4-nts-Win32-vs16-x64:/mnt/c/Users/kazuh/AppData/Local/Programs/mongosh/:/mnt/c/Users/kazuh/.dotnet/tools:/mnt/c/Users/kazuh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kazuh/go/bin:/mnt/c/Users/kazuh/go/bin:/mnt/c/Users/kazuh/AppData/Roaming/npm:/snap/bin:/home/user/Android/Sdk/emulator:/home/user/Android/Sdk/platform-tools:/home/user/Android/Sdk/cmdline-tools/latest/bin:/home/user/Android/Sdk/cmake/3.22.1/bin', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'WT_SESSION': '8e26e789-4876-47e6-af5f-d9067d0f700d', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/my_robot_bringup:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/my_cpp_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/actions_cpp:/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/my_robot_description:/home/user/ros2_ws/install/lifecycle_py:/home/user/ros2_ws/install/lifecycle_cpp:/home/user/ros2_ws/install/battery_led_panel:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ANDROID_SDK_ROOT': '/home/user/Android/Sdk', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'JAVA_HOME': '/usr/lib/jvm/java-21-openjdk-amd64', 'PWD': '/home/user/ros2_ws/src/build/executors_cpp', 'ANDROID_HOME': '/home/user/Android/Sdk', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/user/.pyenv', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/build/executors_py:/home/user/ros2_ws/install/executors_py/lib/python3.12/site-packages:/home/user/ros2_ws/build/turtlesim_catch_them_all:/home/user/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/user/ros2_ws/build/my_py_pkg:/home/user/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/user/ros2_ws/build/actions_py:/home/user/ros2_ws/install/actions_py/lib/python3.12/site-packages:/home/user/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/lifecycle_py:/home/user/ros2_ws/install/lifecycle_py/lib/python3.12/site-packages:/home/user/ros2_ws/install/battery_led_panel/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/my_robot_bringup:/home/user/ros2_ws/install/my_cpp_pkg:/home/user/ros2_ws/install/actions_cpp:/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/my_robot_description:/home/user/ros2_ws/install/lifecycle_cpp:/home/user/ros2_ws/install/battery_led_panel:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/lifecycle_py:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[12.276831] (executors_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o\x1b[0m\n'}
+[12.277191] (-) TimerEvent: {}
+[12.277503] (executors_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/single_threaded_executor.dir/src/single_threaded_executor.cpp.o\x1b[0m\n'}
+[12.381059] (-) TimerEvent: {}
+[12.482605] (-) TimerEvent: {}
+[12.592535] (-) TimerEvent: {}
+[12.695756] (-) TimerEvent: {}
+[12.796202] (-) TimerEvent: {}
+[12.902825] (-) TimerEvent: {}
+[13.008214] (-) TimerEvent: {}
+[13.115989] (-) TimerEvent: {}
+[13.216526] (-) TimerEvent: {}
+[13.317032] (-) TimerEvent: {}
+[13.421723] (-) TimerEvent: {}
+[13.522372] (-) TimerEvent: {}
+[13.623303] (-) TimerEvent: {}
+[13.724191] (-) TimerEvent: {}
+[13.824801] (-) TimerEvent: {}
+[13.925513] (-) TimerEvent: {}
+[14.030242] (-) TimerEvent: {}
+[14.130947] (-) TimerEvent: {}
+[14.236974] (-) TimerEvent: {}
+[14.337860] (-) TimerEvent: {}
+[14.438786] (-) TimerEvent: {}
+[14.546744] (-) TimerEvent: {}
+[14.647396] (-) TimerEvent: {}
+[14.748215] (-) TimerEvent: {}
+[14.849007] (-) TimerEvent: {}
+[14.949571] (-) TimerEvent: {}
+[15.050152] (-) TimerEvent: {}
+[15.150690] (-) TimerEvent: {}
+[15.251438] (-) TimerEvent: {}
+[15.352833] (-) TimerEvent: {}
+[15.453886] (-) TimerEvent: {}
+[15.554854] (-) TimerEvent: {}
+[15.655812] (-) TimerEvent: {}
+[15.756701] (-) TimerEvent: {}
+[15.857501] (-) TimerEvent: {}
+[15.958306] (-) TimerEvent: {}
+[16.059265] (-) TimerEvent: {}
+[16.160012] (-) TimerEvent: {}
+[16.261147] (-) TimerEvent: {}
+[16.361681] (-) TimerEvent: {}
+[16.462272] (-) TimerEvent: {}
+[16.562834] (-) TimerEvent: {}
+[16.663370] (-) TimerEvent: {}
+[16.764571] (-) TimerEvent: {}
+[16.865077] (-) TimerEvent: {}
+[16.965565] (-) TimerEvent: {}
+[17.066135] (-) TimerEvent: {}
+[17.166712] (-) TimerEvent: {}
+[17.269100] (-) TimerEvent: {}
+[17.370202] (-) TimerEvent: {}
+[17.470853] (-) TimerEvent: {}
+[17.571460] (-) TimerEvent: {}
+[17.672019] (-) TimerEvent: {}
+[17.772632] (-) TimerEvent: {}
+[17.873254] (-) TimerEvent: {}
+[17.907228] (executors_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/executors_cpp/src/multi_threaded_executor.cpp:82:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[17.907661] (executors_cpp) StderrLine: {'line': b'   82 |     rclcpp::CallbackGroup::SharedPtr \x1b[01;31m\x1b[Kcb_group_\x1b[m\x1b[K\n'}
+[17.907777] (executors_cpp) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[17.907851] (executors_cpp) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[17.973450] (-) TimerEvent: {}
+[18.073999] (-) TimerEvent: {}
+[18.174541] (-) TimerEvent: {}
+[18.275177] (-) TimerEvent: {}
+[18.375857] (-) TimerEvent: {}
+[18.477765] (-) TimerEvent: {}
+[18.578478] (-) TimerEvent: {}
+[18.679151] (-) TimerEvent: {}
+[18.779796] (-) TimerEvent: {}
+[18.880469] (-) TimerEvent: {}
+[18.981120] (-) TimerEvent: {}
+[19.081750] (-) TimerEvent: {}
+[19.182329] (-) TimerEvent: {}
+[19.284943] (-) TimerEvent: {}
+[19.385784] (-) TimerEvent: {}
+[19.488314] (-) TimerEvent: {}
+[19.589326] (-) TimerEvent: {}
+[19.690000] (-) TimerEvent: {}
+[19.707168] (executors_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/multi_threaded_executor.dir/build.make:76: CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o] Error 1\n'}
+[19.707818] (executors_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/multi_threaded_executor.dir/all] Error 2\n'}
+[19.708030] (executors_cpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[19.790252] (-) TimerEvent: {}
+[19.890986] (-) TimerEvent: {}
+[19.992204] (-) TimerEvent: {}
+[20.094123] (-) TimerEvent: {}
+[20.195371] (-) TimerEvent: {}
+[20.295939] (-) TimerEvent: {}
+[20.396492] (-) TimerEvent: {}
+[20.496998] (-) TimerEvent: {}
+[20.597626] (-) TimerEvent: {}
+[20.698137] (-) TimerEvent: {}
+[20.746815] (executors_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable single_threaded_executor\x1b[0m\n'}
+[20.798593] (-) TimerEvent: {}
+[20.899796] (-) TimerEvent: {}
+[21.000376] (-) TimerEvent: {}
+[21.100940] (-) TimerEvent: {}
+[21.211747] (-) TimerEvent: {}
+[21.312330] (-) TimerEvent: {}
+[21.412913] (-) TimerEvent: {}
+[21.513493] (-) TimerEvent: {}
+[21.614107] (-) TimerEvent: {}
+[21.720538] (-) TimerEvent: {}
+[21.821184] (-) TimerEvent: {}
+[21.921907] (-) TimerEvent: {}
+[22.022587] (-) TimerEvent: {}
+[22.123504] (-) TimerEvent: {}
+[22.224122] (-) TimerEvent: {}
+[22.324916] (-) TimerEvent: {}
+[22.425675] (-) TimerEvent: {}
+[22.530202] (-) TimerEvent: {}
+[22.636285] (-) TimerEvent: {}
+[22.736802] (-) TimerEvent: {}
+[22.837755] (-) TimerEvent: {}
+[22.860622] (executors_cpp) StdoutLine: {'line': b'[ 75%] Built target single_threaded_executor\n'}
+[22.861763] (executors_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.866903] (executors_cpp) CommandEnded: {'returncode': 2}
+[22.949437] (-) TimerEvent: {}
+[23.060544] (-) TimerEvent: {}
+[23.107301] (executors_cpp) JobEnded: {'identifier': 'executors_cpp', 'rc': 2}
+[23.152147] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[01m[K/home/user/ros2_ws/src/executors_cpp/src/multi_threaded_executor.cpp:82:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   82 |     rclcpp::CallbackGroup::SharedPtr [01;31m[Kcb_group_[m[K
+      |                                      [01;31m[K^~~~~~~~~[m[K
+      |                                               [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/multi_threaded_executor.dir/build.make:76: CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/multi_threaded_executor.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

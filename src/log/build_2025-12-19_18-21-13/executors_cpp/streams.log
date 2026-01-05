@@ -1,0 +1,43 @@
+[0.031s] Invoking command in '/home/user/ros2_ws/src/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/lifecycle_py:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/executors_cpp -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/executors_cpp
+[0.944s] -- The C compiler identification is GNU 13.3.0
+[3.391s] -- The CXX compiler identification is GNU 13.3.0
+[5.750s] -- Detecting C compiler ABI info
+[6.690s] -- Detecting C compiler ABI info - done
+[6.706s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.707s] -- Detecting C compile features
+[6.709s] -- Detecting C compile features - done
+[7.134s] -- Detecting CXX compiler ABI info
+[8.042s] -- Detecting CXX compiler ABI info - done
+[8.061s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.061s] -- Detecting CXX compile features
+[8.062s] -- Detecting CXX compile features - done
+[8.122s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.448s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.850s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[9.668s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.718s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.147s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[10.161s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[10.441s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[11.043s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[11.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.122s] -- Configuring done (11.9s)
+[12.153s] -- Generating done (0.0s)
+[12.161s] -- Build files have been written to: /home/user/ros2_ws/src/build/executors_cpp
+[12.180s] Invoked command in '/home/user/ros2_ws/src/build/executors_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/lifecycle_py:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/executors_cpp -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/executors_cpp
+[12.187s] Invoking command in '/home/user/ros2_ws/src/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/lifecycle_py:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/src/build/executors_cpp -- -j4 -l4
+[12.274s] [ 25%] [32mBuilding CXX object CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o[0m
+[12.274s] [ 50%] [32mBuilding CXX object CMakeFiles/single_threaded_executor.dir/src/single_threaded_executor.cpp.o[0m
+[17.904s] [01m[K/home/user/ros2_ws/src/executors_cpp/src/multi_threaded_executor.cpp:82:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[17.904s]    82 |     rclcpp::CallbackGroup::SharedPtr [01;31m[Kcb_group_[m[K
+[17.904s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[17.905s]       |                                               [32m[K;[m[K
+[19.704s] gmake[2]: *** [CMakeFiles/multi_threaded_executor.dir/build.make:76: CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o] Error 1
+[19.705s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/multi_threaded_executor.dir/all] Error 2
+[19.705s] gmake[1]: *** Waiting for unfinished jobs....
+[20.744s] [ 75%] [32m[1mLinking CXX executable single_threaded_executor[0m
+[22.858s] [ 75%] Built target single_threaded_executor
+[22.859s] gmake: *** [Makefile:146: all] Error 2
+[22.864s] Invoked command in '/home/user/ros2_ws/src/build/executors_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/executors_py:/home/user/ros2_ws/install/turtlesim_catch_them_all:/home/user/ros2_ws/install/my_py_pkg:/home/user/ros2_ws/install/actions_py:/home/user/ros2_ws/install/lifecycle_py:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/src/build/executors_cpp -- -j4 -l4
